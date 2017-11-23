@@ -18,15 +18,15 @@
         "tasks": [
           {
             "operation": "relative-kibana-content_issues-dashboard_50%",
-            "target-interval": 30
+            "target-interval": 15
           },
           {
             "operation": "relative-kibana-content_issues-dashboard_75%",
-            "target-interval": 90
+            "target-interval": 20
           },
           {
             "operation": "relative-kibana-traffic-dashboard_50%",
-            "target-interval": 40
+            "target-interval": 10
           }
         ]
       }
