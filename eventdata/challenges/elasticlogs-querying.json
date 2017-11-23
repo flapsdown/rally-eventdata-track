@@ -14,7 +14,7 @@
       "parallel": {
         "warmup-time-period": 0,
         "time-period": 3600,
-        "clients": 4,
+        "clients": 6,
         "tasks": [
           {
             "operation": "relative-kibana-content_issues-dashboard_50%",
@@ -31,6 +31,14 @@
            {
             "operation": "relative-kibana-traffic-dashboard_75%",
             "target-interval": 7
+          },
+          {
+            "operation": "relative-kibana-traffic-dashboard_50%",
+            "target-interval": 8
+          },
+           {
+            "operation": "relative-kibana-traffic-dashboard_75%",
+            "target-interval": 6
           }
         ]
       }
