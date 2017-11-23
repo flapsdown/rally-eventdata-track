@@ -13,24 +13,24 @@
     {
       "parallel": {
         "warmup-time-period": 0,
-        "time-period": 1800,
+        "time-period": 3600,
         "clients": 4,
         "tasks": [
           {
             "operation": "relative-kibana-content_issues-dashboard_50%",
-            "target-interval": 14
+            "target-interval": 2
           },
           {
             "operation": "relative-kibana-content_issues-dashboard_75%",
-            "target-interval": 27
+            "target-interval": 4
           },
           {
             "operation": "relative-kibana-traffic-dashboard_50%",
-            "target-interval": 11
+            "target-interval": 5
           },
            {
             "operation": "relative-kibana-traffic-dashboard_75%",
-            "target-interval": 21
+            "target-interval": 7
           }
         ]
       }
